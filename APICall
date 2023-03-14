@@ -1,3 +1,10 @@
+ 
+  Web.config
+  -----------
+  <add key="HrmBaseUri" value="http://abe.fortiddns.com:7901/" />
+  
+  ---------------------------------------------------------------HRM Projects API call---------------------------------------------------
+ 
  public static async System.Threading.Tasks.Task<List<ProjectSite>> GetProjectSites()
         {
             List<ProjectSite> projectSites = new List<ProjectSite>();
